@@ -486,14 +486,34 @@
   margin-top: 25px;
 }
 
+
 @media (max-width:480px){
  body{
-  width: 1055px;
+  width: 1060px;
+ }
+ .logo{
+  width: 216px;
+  margin-top: -50px;
+  margin-left: 313px;
+ }
+ .nav-links{
+       margin-left: -590px;
+        margin-top: 90px;
+        gap:0px;
+
+ }
+ .login-btn{
+  margin-top: -50px;
+  margin-left: -120px;
+  font-size: 30px;
+ }
+ .nav-links li a{
+  font-size: 28px;
  }
  .img2{
   width: 256vw;
  }
-    .img3{
+ .img3{
   width: 82vw;
   margin-left: 405px;
  }
@@ -510,13 +530,16 @@
  }
  .content{
   width: 215vw;
+  font-size: 31px;
  }
  .c2{
   width: 215vw;
+  font-size: 31px;
   text-align: center;
  }
  .c3{
   width: 215vw;
+  font-size: 31px;
  }
  .card3{
   margin-left: 330px;
@@ -526,5 +549,17 @@
  }
  .card1 img, .card2 img, .card3 img{
   width: 72vw;
+ }
+ .head{
+  font-size: 75px;
+ }
+ .h2{
+  font-size: 75px;
+ }
+ .h3{
+  font-size: 75px;
+ }
+ .h4{
+  font-size: 75px;
  }
 }
