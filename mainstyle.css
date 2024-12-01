@@ -485,3 +485,34 @@
   margin-left: 595px;
   margin-top: 25px;
 }
+
+@media (max-width:480px){
+ body{
+  width: 1055px;
+ }
+ .img2{
+  width: 256vw;
+ }
+ .container{
+  width: 256vw;
+ }
+ .content{
+  width: 215vw;
+ }
+ .c2{
+  width: 215vw;
+  text-align: center;
+ }
+ .c3{
+  width: 215vw;
+ }
+ .card3{
+  margin-left: 330px;
+ }
+ .card1, .card2{
+  width: 75vw;
+ }
+ .card1 img, .card2 img, .card3 img{
+  width: 72vw;
+ }
+}
