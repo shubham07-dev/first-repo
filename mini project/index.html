@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALPHA-WORLD</title>
+  <link rel="stylesheet" href="mainstyle.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">ALPHA-WORLD</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#About us">About us</a></li>
+        <li><a href="#Let's Explore">Let's Explore</a></li>
+        <li><a href="#Testimonial">Testimonial</a></li>
+        <li><a href="#Contact us">Contact us</a></li>
+      </ul>
+      <div id="user-info" style="font-weight: bold; margin-right: 10px; display: none; 
+      border: 2px solid #88f9a8;font-size: 18px;
+      padding: 6px;border-radius: 10px; background-color: #7df77d;"></div>
+      <button class="login-btn" id="auth-btn" onclick="handleAuth()">Login</button>      
+      </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <h1>THE</h1>
+      <h2>ALPHA-WORLD</h2>
+      <div>
+        <img src="img1-Bsh5S3Mq.png" class="img1">
+      </div>
+      <p>"IT'S PLATFORM FOR SUCCESS" </p>
+      <img src="img3.png--4mkAUZA.png" class="img2">
+      <div class="container">
+        <div class="head" id="About us"> Personalised learning </div>
+        <div class="content">Personalized learning is an adaptable educational approach that recognizes that every child
+          learns differently.
+          It goes beyond a one-size-fits-all model and aims to meet individual students where they are.</div>
+        <img src="img5-CdqYU_-E.png" alt="kid" class="img3">
+        <div class="h2">
+          knowledge
+        </div>
+        <div class="c2">
+          We provide the best of work and provide with various concept that help to gain knowledge And some quizes to
+          interact
+        </div>
+        <img src="img4.png" alt="tree" class="img4">
+        <div class="h3">
+          creativity
+        </div>
+        <div class="c3">
+          Creativity is a magical spark that ignites a child's imagination, curiosity, and joy. For kindergarteners,
+          this creative flame burns brightly, and as educators and parents, we have the delightful task of fanning it
+          into a lifelong passion. Let's explore how to nurture creativity in kindergarten kids.
+        </div>
+        <img src="img6.png" alt="creativity" class="img6">
+        <div class="h4" id="Let's Explore">Let's Explore</div>
+        <div class="card-container">
+          <div class="card1">
+            <img src="img7.png" alt="abc" class="img7">
+            <div class="card-content">Let's explore the essential components of teaching the alphabet (ABCs) to
+              kindergarten kids. Alphabet knowledge is a foundational skill that lays the groundwork for future reading
+              success</div>
+            <button class="b1" onclick="redirectToPage('abc.html')">Let's Go</button>
+
+          </div>
+          <div class="card2">
+            <img src="img8.png" alt="abc" class="img8"> <!-- Use the same image style -->
+            <div class="card-content">Let's explore the essential components of teaching poetry to kindergarten kids. By
+              breaking down the elements of poems, we appreciate the beauty of language, rhythm, and imagination</div>
+            <button class="b2" onclick="redirectToPage('poem.html')">Let's Go</button>
+
+          </div>
+        </div>
+        <div class="card3" id="Testimonial">
+          <img src="test.png" alt="science" class="img9" style="width: 43vh;">
+          <div class="card-content"> Take a fun and interactive test to showcase your knowledge. Earn a certificate to
+            celebrate your success and share your achievement!</div>
+          <button class="b3" onclick="redirectToPage('test.html')">Let's Go</button>
+        </div>
+      </div>
+      </div>
+      <div class="footer" id="Contact us">
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
