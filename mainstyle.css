@@ -490,6 +490,7 @@
 @media (max-width:480px){
  body{
   width: 1060px;
+  overflow-x: hidden;
  }
  .h7{
   height: 21vh;
