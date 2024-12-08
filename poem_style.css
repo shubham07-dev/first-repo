@@ -154,3 +154,21 @@ h1 {
   height: 59vh;
   margin-right: 90px;
 }
+
+
+@media(max-width:480px){
+  h1{
+    width: 221vw;
+    margin: 0px;
+    position: relative;
+    left: 240px;
+  }
+  .card-container{
+    position: relative;
+    left: 230px;
+  }
+  .card5{
+    position: relative;
+    left: 70px;
+  }
+}
