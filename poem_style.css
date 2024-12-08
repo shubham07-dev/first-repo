@@ -155,16 +155,17 @@ h1 {
   margin-right: 90px;
 }
 
+
 @media(max-width:480px){
   h1{
-    width: 221vw;
+    width: 328vw;
     margin: 0px;
     position: relative;
     left: 240px;
   }
   .card-container{
     position: relative;
-    left: 230px;
+    left: 345px;
   }
   .card5{
     position: relative;
@@ -178,7 +179,7 @@ h1 {
   .card2{
     position: relative;
     left: 225px;
-    bottom: 634px;
+    bottom: 575px;
   }
   .card3{
     position: relative;
@@ -188,7 +189,7 @@ h1 {
   .card4{
     position: relative;
     left: 195px;
-    bottom: 1186px;
+    bottom: 1132px;
     height: 54vh;
   }
   .b4{
