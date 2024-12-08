@@ -155,7 +155,6 @@ h1 {
   margin-right: 90px;
 }
 
-
 @media(max-width:480px){
   h1{
     width: 221vw;
@@ -169,6 +168,36 @@ h1 {
   }
   .card5{
     position: relative;
-    left: 70px;
+    left: 60px;
+    bottom: 1150px;
+  }
+  .card1{
+    position: relative;
+    right: 180px;
+  }
+  .card2{
+    position: relative;
+    left: 225px;
+    bottom: 634px;
+  }
+  .card3{
+    position: relative;
+    right: 180px;
+    bottom: 555px;
+  }
+  .card4{
+    position: relative;
+    left: 195px;
+    bottom: 1186px;
+    height: 54vh;
+  }
+  .b4{
+    margin-top: -10px;
+  }
+  .b3{
+    margin-top: 37px;
+  }
+  body{
+    height: 96vh;
   }
 }
