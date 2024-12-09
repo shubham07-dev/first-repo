@@ -197,8 +197,8 @@ h1 {
   .card2{
     position: relative;
     left: 225px;
-    bottom: 606px;
-    height: 52vh;
+    bottom: 579px;
+    height: 57vh;
   }
   .card3{
     position: relative;
@@ -211,7 +211,7 @@ h1 {
         left: 198px;
         bottom: 1077px;
         height: 54vh;
-        top: -1158px;
+        top: -1127px;
         height: auto;
   }
   .b4{
@@ -226,7 +226,7 @@ h1 {
   }
   .b2{
     position: relative;
-    top: 18px;
+    top: 3px;
   }
   body{
     height: 96vh;
