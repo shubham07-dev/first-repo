@@ -172,62 +172,127 @@ h1 {
 
 @media(max-width:480px){
   h1{
-    width: 130vw;
-        margin: 0px;
-        position: relative;
-        left: 510px;
+    width: 220vw;
+    margin: 0px;
+    position: relative;
+    left: 648px;
+    font-size: 110px;
   }
   .card-container{
     position: relative;
-    left: 490px;
+    left: 630px;
     top: 100px;
   }
   .card5{
     position: relative;
-    left: 70px;
-    bottom: 1204px;
-    height: auto;
-    top: -1144px;
+        left: 70px;
+        bottom: 1204px;
+        height: auto;
+        top: -1890px;
+        width: 140vw;
   }
   .card1{
     position: relative;
-    right: 180px;
+    right: 333px;
     height: auto;
+    width: 200vw;
   }
   .card2{
     position: relative;
-    left: 225px;
-    bottom: 579px;
-    height: 57vh;
-  }
+        left: 349px;
+        bottom: 981px;
+        height: 108vh;
+        width: 149vw;
+    }
+  
   .card3{
     position: relative;
-    right: 180px;
-    bottom: 555px;
-    height: auto;
+        right: 327px;
+        bottom: 960px;
+        height: auto;
+        width: 140vw;
   }
   .card4{
     position: relative;
-        left: 198px;
+        left: 330px;
         bottom: 1077px;
         height: 54vh;
-        top: -1127px;
-        height: auto;
+        top: -1905px;
+        height: 104vh;
+        width: 140vw;
   }
   .b4{
     margin-top: -10px;
     position: relative;
     top: 8px;
+    font-size: 40px;
   }
   .b3{
     margin-top: 37px;
     position: relative;
-    top: 9px;
+    top: 40px;
+    font-size: 40px;
+    
   }
   .b2{
     position: relative;
     top: 3px;
+    font-size: 40px;
   }
+  .b1{
+    font-size: 40px;
+        position: relative;
+        top: 37px;
+  }
+  .b5{
+    font-size: 40px;
+    position: relative;
+    top: 45px;
+  }
+  .card1 .card-content{
+    font-size: 50px;
+    width: 130vw;
+  }
+  .card1 img{
+    width: 123vw;
+    height: 42vh;
+}
+  
+  .card2 .card-content{
+    font-size: 50px;
+    width: 117vw;
+  }
+  .card2 img{
+    width: 123vw;
+    height: 42vh;
+}
+  
+  
+  .card3 .card-content{
+    font-size: 50px;
+    width: 117vw;
+  }
+  .card3 img{
+    width: 123vw;
+    height: 42vh;
+}
+  .card4 .card-content{
+    font-size: 50px;
+    width: 112vw;
+  }
+  .card4 img{
+    width: 123vw;
+    height: 42vh;
+}
+  .card5 .card-content{
+    font-size: 50px;
+    width: 142vw;
+  }
+  .card5 img{
+    width: 123vw;
+    height: 42vh;
+}
+  
   body{
     height: 96vh;
     margin: 10px 5px;
