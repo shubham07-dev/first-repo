@@ -175,42 +175,58 @@ h1 {
     width: 130vw;
         margin: 0px;
         position: relative;
-        left: 369px;
+        left: 510px;
   }
   .card-container{
     position: relative;
-    left: 345px;
+    left: 490px;
+    top: 100px;
   }
   .card5{
     position: relative;
-    left: 60px;
-    bottom: 1150px;
+    left: 70px;
+    bottom: 1204px;
+    height: auto;
+    top: -1144px;
   }
   .card1{
     position: relative;
     right: 180px;
+    height: auto;
   }
   .card2{
     position: relative;
     left: 225px;
-    bottom: 575px;
+    bottom: 606px;
+    height: 52vh;
   }
   .card3{
     position: relative;
     right: 180px;
     bottom: 555px;
+    height: auto;
   }
   .card4{
     position: relative;
-    left: 195px;
-    bottom: 1132px;
-    height: 54vh;
+        left: 198px;
+        bottom: 1077px;
+        height: 54vh;
+        top: -1158px;
+        height: auto;
   }
   .b4{
     margin-top: -10px;
+    position: relative;
+    top: 8px;
   }
   .b3{
     margin-top: 37px;
+    position: relative;
+    top: 9px;
+  }
+  .b2{
+    position: relative;
+    top: 18px;
   }
   body{
     height: 96vh;
