@@ -175,12 +175,12 @@ h1 {
     width: 220vw;
     margin: 0px;
     position: relative;
-    left: 648px;
+    left: 630px;
     font-size: 110px;
   }
   .card-container{
     position: relative;
-    left: 630px;
+    left: 590px;
     top: 100px;
   }
   .card5{
@@ -199,10 +199,10 @@ h1 {
   }
   .card2{
     position: relative;
-        left: 349px;
-        bottom: 981px;
-        height: 108vh;
-        width: 149vw;
+    left: 349px;
+    bottom: 1013px;
+    height: 112vh;
+    width: 149vw;
     }
   
   .card3{
@@ -217,8 +217,8 @@ h1 {
         left: 330px;
         bottom: 1077px;
         height: 54vh;
-        top: -1905px;
-        height: 104vh;
+        top: -2004px;
+        height: 116vh;
         width: 140vw;
   }
   .b4{
