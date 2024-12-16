@@ -20,6 +20,7 @@
       background: #f3f4f6;
       border-radius: 10px;
     }
+  
 
     /* General body styling */
     body {
@@ -176,16 +177,54 @@
     .speaker img:hover {
       filter: brightness(1.2);
     }
+    @media(max-width:480px){
+      .card-container{
+        position: relative;
+        left: 280px;
+      }
+      h1{
+        width: 293vw;
+        height: 20vh;
+        margin-left: -16px;
+        margin-right: 0px;
+        position: sticky;
+        right: 18px;
+        font-size: 125px;
+      }
+      .image-container img{
+        width: 60vw;
+        display: none;
+      }
+      .image2-container{
+        width: 51vw;
+        display: none;
+      }
+      .card-front{
+        font-size: 300px;
+      }
+      .card{
+        width: 70vw;
+        height: 40vh;
+      }
+      .speaker img{
+        width: 25vw;
+        height: 12vh;
+      }
+      .speaker{
+        height: 15vh;
+        width: 80vw;
+      }
+    }
   </style>
 </head>
 <body>
   <h1>Alphabet Cards</h1>
   <div class="content">
     <div class="image-container">
-      <img src="limg.png" alt="Placeholder Image" style="height:80vh;">
+      <img src="limg.png" alt="Placeholder Image" style="height:80vh;" class="img1">
     </div>
     <div class="image2-container">
-      <img src="img5-CdqYU_-E.png" alt="Placeholder Image" style="height:60vh;">
+      <img src="img5-CdqYU_-E.png" alt="Placeholder Image" style="height:60vh;" class="img2">
     </div>
     <div class="card-container" id="cardContainer"></div>
   </div>
