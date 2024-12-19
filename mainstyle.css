@@ -742,7 +742,7 @@ footer {
 
 @media (max-width:480px) {
   body {
-    width: 1060px;
+    width: 1035px;
     overflow-x: hidden;
   }
 
@@ -775,7 +775,9 @@ footer {
 
   }
   .logged-in .logo{
-    top: 27px;
+    top: 3px;
+    width: 81vw;
+    font-size: 40px;
   }
   .logged-in #user-info{
     top: -20px;
@@ -785,7 +787,7 @@ footer {
   .logged-in .nav-links {
     left: 330px;
     margin-top: 60px;
-    top: 31px;
+    top: 12px;
     /* Adjust top margin */
   }
 
@@ -793,27 +795,49 @@ footer {
     left: 190px;
     /* Adjust position for logged-out user */
     margin-top: 120px;
-    bottom: 11px;
+    bottom: 38px;
   }
   .not-logged-in .logo{
     left: -35px;
+        bottom: 8px;
+        font-size: 42px;
+        width: 82vw;
   }
 
   .not-logged-in .login-btn {
     display: block;
-    /* Show the login button if user is not logged in */
+    position: relative;
+    bottom: 25px;
+    font-size: 38px;
   }
 
   .login-btn {
-    margin-top: -50px;
+    margin-top: -88px;
     margin-left: -120px;
     font-size: 30px;
   }
 
   .nav-links li a {
-    font-size: 32px;
+    font-size: 40px;
   }
-
+  .not-logged-in .testi{
+    display: none;
+  }
+  .not-logged-in .Contact{
+    position: relative;
+    right: 47px;
+  }
+  .logged-in .Let{
+    display: block;
+        width: 60vw;
+  }
+  .logged-in .testi{
+    display: none;
+  }
+  .logged-in .Contact{
+    position: relative;
+    right: 50px;
+  }
   .img2 {
     width: 260vw;
   }
@@ -900,17 +924,17 @@ footer {
   }
 
   .img1 {
-    width: 90vw;
+    width: 100vw;
   }
 
   .hero h2 {
     position: relative;
-    top: 110px;
+    top: 40px;
   }
 
   .hero h1 {
     position: relative;
-    top: 100px;
+    top: 50px;
   }
   .footer-about p{
     width: 104vw;
